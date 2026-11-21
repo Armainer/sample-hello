@@ -1,6 +1,8 @@
 # Hello
 
-A one-page web site. It does not use a LED, a GPIO pin, or Wi-Fi. Use it to prove that a fleet can build a repository and run a container. Replace this code with your own application when that works.
+This is sample code to test deployment and builds in Armainer. It is not an application to keep. When a build reaches the machine, switch the fleet to your own repository.
+
+The sample is a one-page web site. It does not use a LED, a GPIO pin, or Wi-Fi.
 
 ## Board families
 
@@ -16,7 +18,7 @@ The fleet builder compiles it for that board. A Pi, Orange Pi, or Banana Pi flee
 
 ## Run it
 
-In the fleet, build `https://github.com/Armainer/hello.git` on branch `main`.
+In the fleet, build `https://github.com/Armainer/sample-hello.git` on branch `main`.
 
 Open `http://<machine-address>:8080/`. The page says Hello.
 
