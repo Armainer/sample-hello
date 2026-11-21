@@ -23,3 +23,7 @@ In the fleet, build `https://github.com/Armainer/sample-hello.git` on branch `ma
 Open `http://<machine-address>:8080/`. The page says Hello.
 
 If the fleet firewall is on, allow TCP port 8080 on the Security tab. The container listens on port 3000 inside, and the compose file publishes that as port 8080 on the machine.
+
+## Licence
+
+MIT. You can use, change, and ship this sample, including in your own product. Keep the copyright notice from `LICENSE` in copies of the code.
